@@ -6,4 +6,5 @@ edition = "2024"
 [dependencies]
 actix-web = "4.12.1"
 reqwest = "0.13.2"
+serde = {version = "1.0.228", features= ["derive"]}
 tokio = "1.49.0"
